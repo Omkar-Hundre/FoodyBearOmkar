@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/56a9acb51e.js" crossorigin="anonymous"></script>
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="Register.css">
+
+      <title>Register</title>
+   </head>
+   <body>
+      <div class="login">
+         <img src="Files/Login Page Mobile Prototype.jpg" alt="login image" class="login__img">
+
+         <form action="" class="login__form">
+            <h1 class="login__title" style="font-size: 48px; font-weight: 1000; color: #ff7300;">Register</h1>
+
+            <div class="login__content">
+               <div class="login__box">
+                  <i class="fa-regular fa-user" style="color: #ff7300;"></i>
+
+                  <div class="login__box-input">
+                     <input type="text" required class="login__input" id="login-name" placeholder=" ">
+                     <label style="color: #ff7300;" for="login-name" class="login__label">Name</label>
+                  </div>
+               </div>
+
+               <div class="login__box">
+                  <i class="fa-regular fa-envelope" style="color: #ff7300;"></i>
+
+                  <div class="login__box-input">
+                     <input type="email" required class="login__input" id="login-email" placeholder=" ">
+                     <label style="color: #ff7300;" for="login-email" class="login__label">Email</label>
+                  </div>
+               </div>
+               
+               <div class="login__box">
+                  <i class="fa-solid fa-phone" style="color: #ff7300;"></i>
+
+                  <div class="login__box-input">
+                     <input type="number" required class="login__input" id="login-number" placeholder=" ">
+                     <label style="color: #ff7300;" for="login-number" class="login__label">Phone</label>
+                  </div>
+               </div>
+
+               <div id="swer" class="login__box">
+                  <i style="color: #ff7300;" class="ri-lock-2-line login__icon"></i>
+
+                  <div class="login__box-input">
+                     <input type="text" required class="login__input" id="login-pass1" placeholder=" ">
+                     <label style="color: #ff7300;" for="login-pass1" class="login__label">Password</label>
+                  </div>
+               </div>
+
+               <div id="swer" class="login__box">
+                  <i style="color: #ff7300;" class="ri-lock-2-line login__icon"></i>
+
+                  <div class="login__box-input">
+                     <input type="password" required class="login__input" id="login-pass2" placeholder=" ">
+                     <label style="color: #ff7300;" for="login-pass2" class="login__label">Confrim Password</label>
+                  </div>
+               </div>
+
+            </div>
+
+            <button style="color: #ffffff; font-size: 22px;" type="submit" class="login__button">Register</button>
+
+            <p class="login__register">
+               Already have an account?
+               <a style="color: #ff7300;" href="LoginPage.html">Login!</a>
+            </p>
+         </form>
+      </div>
+      
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
