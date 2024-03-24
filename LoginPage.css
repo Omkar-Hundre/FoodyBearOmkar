@@ -91,6 +91,7 @@ img {
   border: 2px solid var(--white-color);
   border-radius: 0.5rem;
   padding-left: 10px;
+  padding-right: 10px:
   background-color: rgba(255, 115, 0, 0.1);
 }
 
